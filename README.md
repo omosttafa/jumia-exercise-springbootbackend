@@ -1,10 +1,10 @@
 # Jumia Exercise Spring Boot (Back-end) services.
 
 
-# Overview
+### Overview
 This project is a Spring Boot Framwork backend REST APIs using CRUD to Integrate with (SQLite 3) DB to get a list of phone numbers and categorizing this list by country, state, country code and number.
 
-# Main technology stack
+### Main technology stack
 
 * Java 1.8+
 * Spring Boot 2.5.4
@@ -13,11 +13,11 @@ This project is a Spring Boot Framwork backend REST APIs using CRUD to Integrate
 * SQlite3 (CRUD+SQLiteDialect)
 * Dockerfile (for the ability to build the project in a docker image)
 
-# Preparation
+### Preparation
 
 Please must install Java 1.8 or even higher version
 
-# Usage
+### Usage
 
 * Clone Repository
 ```
@@ -82,11 +82,11 @@ docker run -p 9090:8080 jumia-exercise-api.jar
 
 ```
 
-## REST APIs
+# REST APIs
 
 After running the back-end server there will be two REST APIs available to consume:
 
-## getAllCustomers() API
+### getAllCustomers() API
  
   To get the list of all customers phone numbers and return it as JSON response.
 
@@ -122,7 +122,7 @@ http://localhost:8080/customers/
 ]
 ```
 
-## getCustomersFromCountry() API
+### getCustomersFromCountry() API
 
   To get the list of phone numbers from DB and validate the numbers by a country regex pattern to identify the valid and not valid numbers. The validation result and country code is being added/included to the response JSON to represent the full list of customers phone numbers including the valid and not valid numbers.
 
@@ -161,11 +161,11 @@ http://localhost:8080/customers/mozambique
 ]
 ```
 
-## Conclusion
+### Conclusion
 
 * By running this Spring Boot backend it means there are running mircoservices represented through REST APIs ready for Frontend application to use.
 * After building and running the backend APIs and testing the requests/responses, you can move forward to the frontend application mentioned in the related projects below.
 * Frontend Application is implemented using VUE.JS Framework.
 
-## Related Projects
+### Related Projects
 [Jumia Exercise VUE.JS Frontend](https://github.com/omosttafa/jumia-exercise-vuejs-frontend)
