@@ -7,7 +7,7 @@ This project is a Spring Boot Framwork backend REST APIs using CRUD to Integrate
 # Main technology stack
 
 * Java 1.8+
-* Spring Boot 2.5.x
+* Spring Boot 2.5.4
 * Spring Tool Suite 4
 * Maven 4
 * SQlite3 (CRUD+SQLiteDialect)
@@ -33,9 +33,9 @@ mvn clean install
 ```
 
 Using Spring Tool Suite 4:
-- Import the project (File > Import > Maven > Existing Maven Projects)
-- Right click on project > Run As > Maven install
-- Make sure this generates the jar file for the project (jumia-exercise-springbootbackend/target/jumia-exercise-api.jar)
+  - Import the project (File > Import > Maven > Existing Maven Projects)
+  - Right click on project > Run As > Maven install
+  - Make sure this generates the jar file for the project (jumia-exercise-springbootbackend/target/jumia-exercise-api.jar)
 
 * Run back-end server on local machine
 ```
