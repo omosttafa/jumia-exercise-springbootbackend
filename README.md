@@ -33,9 +33,9 @@ mvn clean install
 ```
 
 Using Spring Tool Suite 4:
-  First, Import the project (File > Import > Maven > Existing Maven Projects)
-  Then, Right click on project > Run As > Maven install
-  Then, Make sure this generates the jar file for the project (jumia-exercise-springbootbackend/target/jumia-exercise-api.jar)
+  First, Import the project (File > Import > Maven > Existing Maven Projects)  
+  Then, Right click on project > Run As > Maven install  
+  Then, Make sure this generates the jar file for the project (jumia-exercise-springbootbackend/target/jumia-exercise-api.jar)  
 
 * Run back-end server on local machine
 ```
