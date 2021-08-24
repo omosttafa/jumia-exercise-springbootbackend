@@ -8,7 +8,7 @@ This project is a Spring Boot Framwork backend REST APIs using CRUD to Integrate
 
 * Java 1.8+
 * Spring Boot 2.5.4
-* Spring Tool Suite 4
+* Spring Tool Suite 4 (IDE)
 * Maven 4
 * SQlite3 (CRUD+SQLiteDialect)
 * Dockerfile (for the ability to build the project in a docker image)
